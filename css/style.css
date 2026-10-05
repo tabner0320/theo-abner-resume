@@ -144,6 +144,21 @@ a {
     flex-direction: column;
 }
 
+
+/* =========================
+   Project Preview Images
+========================= */
+
+.project-preview {
+    display: block;
+    width: 100%;
+    height: 220px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    object-fit: cover;
+    object-position: top;
+}
+
 .project-card p {
     flex-grow: 1;
 }
@@ -283,5 +298,9 @@ footer p {
     .hero-links a {
         width: 100%;
         text-align: center;
+    }
+
+    .project-preview {
+        height: 200px;
     }
 }
