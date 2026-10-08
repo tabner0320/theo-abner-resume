@@ -159,6 +159,13 @@ a {
     object-position: top;
 }
 
+/* Show the full Sweet Cups welcome artwork without cropping. */
+.sweet-cups-preview {
+    object-fit: contain;
+    object-position: center;
+    background-color: #111827;
+}
+
 .project-card p {
     flex-grow: 1;
 }
